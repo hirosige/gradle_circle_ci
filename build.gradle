@@ -44,12 +44,6 @@ eclipse {
 	}
 }
 
-task wrapper(type: Wrapper) {
-	gradleVersion = '2.2.1'
-}
-
 task stage {
 	dependsOn build
 }
-
-defaultTasks "clean", "build"
